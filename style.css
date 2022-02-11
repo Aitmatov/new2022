@@ -87,7 +87,7 @@ body{
 	margin-left: 100px;
 }
 
-@media(max-width: 776px){
+@media (max-width: 776px){
 	.right-top{
 		display: none;
 	}
@@ -95,12 +95,16 @@ body{
 	.left-bottom{
 		display: none;
 	}
+
+	.box{
+		margin-top: 72px;
+
+	}
 	.title{
 		text-align: center;
-	    font-size: 60px;
+	    font-size: 50px;
     	color: #D6BD84;
-		margin-top: 170px;
-		display: inline-block;
+		margin-top: 30px;
     }
     
 	.nota{
@@ -133,4 +137,39 @@ body{
 		display: none;
 	}
 
-} 
+}
+
+
+@media screen and (max-width: 380px){
+	.right-top{
+		display: none;
+	}
+
+	.left-bottom{
+		display: none;
+	}
+
+	.box{
+		margin-top: 1px;
+
+	}
+	.title{
+		text-align: center;
+		font-size: 50px;
+		color: #D6BD84;
+		margin-top: 30px;
+	}
+
+	.nota{
+		position: absolute;
+		left: 79%;
+		top: 75px;
+	}
+	.logo{
+		margin-top: 5px;
+	}
+
+}
+}
+
+
