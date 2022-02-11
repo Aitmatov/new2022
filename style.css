@@ -99,12 +99,14 @@ body{
 		text-align: center;
 	    font-size: 60px;
     	color: #D6BD84;
+		margin-top: 170px;
+		display: inline-block;
     }
     
 	.nota{
-	position: absolute;
-	left: 79%;
-	top: 75px;
+		position: absolute;
+		left: 79%;
+		top: 75px;
 }
 }
 @media print{
@@ -125,7 +127,7 @@ body{
 }
 	.box{
 		color: #000000;
-		ont-size: 72px;
+		font-size: 72px;
 	}
 	.sign{
 		display: none;
